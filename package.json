@@ -1,0 +1,13 @@
+{
+  "name": "plagas-control-plagas",
+  "version": "1.0.0",
+  "description": "Sistema de Control de Plagas - Full Stack Application",
+  "scripts": {
+    "install:all": "npm install --prefix server && npm install --prefix client",
+    "seed": "node server/seed.js",
+    "dev:server": "node server/index.js",
+    "dev:client": "npm run dev --prefix client",
+    "dev": "echo Inicia el backend con: npm run dev:server y el frontend con: npm run dev:client",
+    "setup": "npm run install:all && npm run seed"
+  }
+}

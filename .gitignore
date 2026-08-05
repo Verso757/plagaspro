@@ -1,0 +1,11 @@
+node_modules/
+dist/
+.env
+*.db
+*.db-shm
+*.db-wal
+server/uploads/documents/
+server/uploads/sketches/
+*.log
+.DS_Store
+Thumbs.db
