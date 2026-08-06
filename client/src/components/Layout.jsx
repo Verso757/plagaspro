@@ -12,6 +12,7 @@ export default function Layout() {
   };
 
   const navItems = [
+    { to: '/field-visit', icon: MapPin, label: '📱 Visita en Campo' },
     { to: '/dashboard', icon: LayoutDashboard, label: 'Dashboard' },
     { to: '/clients', icon: Users, label: 'Clientes' },
     { to: '/sites', icon: Building2, label: 'Sitios' },

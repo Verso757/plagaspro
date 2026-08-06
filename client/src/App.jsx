@@ -21,6 +21,7 @@ import PortalDashboard from './pages/PortalDashboard';
 import PortalSitesList from './pages/PortalSitesList';
 import PortalSiteDetail from './pages/PortalSiteDetail';
 import QRScanner from './pages/QRScanner';
+import FieldVisit from './pages/FieldVisit';
 
 function PrivateRoute({ children }) {
   const { user } = useAuth();
@@ -63,6 +64,7 @@ export default function App() {
         <Route path="catalogs" element={<AdminRoute><Catalogs /></AdminRoute>} />
         <Route path="calendar" element={<Calendar />} />
         <Route path="qr-scanner" element={<QRScanner />} />
+        <Route path="field-visit" element={<FieldVisit />} />
         <Route path="invoices" element={<AdminRoute><Invoices /></AdminRoute>} />
       </Route>
       <Route path="/portal" element={<ClientRoute><PortalLayout /></ClientRoute>}>
